@@ -45,6 +45,20 @@
     <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=sQDhQi">
     <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=sQDhQi" type="text/css">
 
+    <style>
+        .logo {
+			height: 3rem;
+		}
+
+        .scroll {
+			text-align: center;
+		}
+
+        .map {
+            border:0;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -56,7 +70,7 @@
                     <span class="navbar-logo">
                         <a href="index.html">
                             <img src="assets/images/architect-96x96.png"
-                                alt="omuleț cu cască de constructor și o macheta a unei clădiri" style="height: 3rem;">
+                                alt="omuleț cu cască de constructor și o macheta a unei clădiri" class="logo">
                         </a>
                     </span>
                     <span class="navbar-caption-wrap"><a class="navbar-caption text-black text-primary display-4"
@@ -218,7 +232,7 @@
                 </div>
 
                 <div class="map-wrapper col-md-12 col-lg-6">
-                    <div class="google-map"><iframe style="border:0"
+                    <div class="google-map"><iframe class="map"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.6867640125665!2d23.60559657618094!3d46.77107037112549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490c2321652047%3A0x26c7a15ac3b3be71!2sCollege%20of%20Political%2C%20Administrative%20and%20Communication%20Sciences!5e0!3m2!1sen!2sro!4v1705153076314!5m2!1sen!2sro"
                             allowfullscreen=""></iframe>
                     </div>
@@ -275,7 +289,7 @@
     <script src="assets/theme/js/script.js"></script>
 
     <div id="scrollToTop" class="scrollToTop mbr-arrow-up">
-        <a style="text-align: center;">
+        <a class="scroll">
             <i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i>
         </a>
     </div>
